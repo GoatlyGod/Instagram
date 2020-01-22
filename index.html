@@ -9,22 +9,78 @@
         <title>Instagram Photo Feed</title>
     </head>
 <body>
-    <nav class="navbar fixed-top navbar-dark bg-primary">
+    <nav class="navbar navbar-dark bg-dark">
         <a class="navbar-brand" href="#!">Instagram</a>
+
         <div>
-            <button type="button" class="btn btn-success">Success</button>
-            <div class="dropdown">
-            <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fa fa-cog"></i>
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
+            <button type="button" class="btn btn-success">Create a new post</button>
+
+            <div class="btn-group">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fa fa-cog"></i>
+                </button>
+
+                <div class="dropdown-menu dropdown-menu-right">
+                  <button class="dropdown-item" type="button">General Settings</button>
+                  <button class="dropdown-item" type="button">Blocked Accounts</button>
+                  <button class="dropdown-item" type="button">Sign Out</button>
+                </div>
             </div>
-              </div>
         </div>
-      </nav>
+    </nav>
+
+    <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="true"><i class="fa fa-th"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="false"><i class="fa fa-square"></i></a> 
+        </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            
+            <div class="container col-12">
+                <div class="row">
+                  <div class="col col-4 mb-1">
+                    <img class="irc_mi" src="https://en.es-static.us/upl/2013/09/sunrise-red-sea-Graham-Telford-e1489764712368.jpg" height="300px" alt="Image result for sunset"/>
+                  </div>
+                  <div class="col-4">
+                    <img class="irc_mi" src="https://en.es-static.us/upl/2013/09/sunrise-red-sea-Graham-Telford-e1489764712368.jpg" height="300px" alt="Image result for sunset"/>
+                  </div>
+                  <div class="col-4">
+                    <img class="irc_mi" src="https://en.es-static.us/upl/2013/09/sunrise-red-sea-Graham-Telford-e1489764712368.jpg" height="300px" alt="Image result for sunset"/>
+                  </div>
+                    <div class="col col-4 mb-1">
+                      <img class="irc_mi" src="https://en.es-static.us/upl/2013/09/sunrise-red-sea-Graham-Telford-e1489764712368.jpg" height="300px" alt="Image result for sunset"/>
+                    </div>
+                    <div class="col-4">
+                      <img class="irc_mi" src="https://en.es-static.us/upl/2013/09/sunrise-red-sea-Graham-Telford-e1489764712368.jpg" height="300px" alt="Image result for sunset"/>
+                    </div>
+                    <div class="col-4">
+                      <img class="irc_mi" src="https://en.es-static.us/upl/2013/09/sunrise-red-sea-Graham-Telford-e1489764712368.jpg" height="300px" alt="Image result for sunset"/>
+                    </div>
+                    <div class="col col-4 mb-1">
+                        <img class="irc_mi" src="https://en.es-static.us/upl/2013/09/sunrise-red-sea-Graham-Telford-e1489764712368.jpg" height="300px" alt="Image result for sunset"/>
+                      </div>
+                      <div class="col-4">
+                        <img class="irc_mi" src="https://en.es-static.us/upl/2013/09/sunrise-red-sea-Graham-Telford-e1489764712368.jpg" height="300px" alt="Image result for sunset"/>
+                      </div>
+                      <div class="col-4">
+                        <img class="irc_mi" src="https://en.es-static.us/upl/2013/09/sunrise-red-sea-Graham-Telford-e1489764712368.jpg" height="300px" alt="Image result for sunset"/>
+                </div>
+              </div>
+
+
+        </div>
+        <div class="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"> im 2</div>
+      </div>    
+
+
+
+
+
+
        <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
