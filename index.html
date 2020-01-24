@@ -13,8 +13,25 @@
       <i class="fab fa-instagram"> <a class="navbar-brand" href="#!">Instagram</a></i>
 
         <div>
-            <button type="button" class="btn btn-success">Create a new post</button>
-
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">Create a new post</button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                        <input type="text" class="form-control" placeholder="Comment..." aria-label="" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Post</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             <div class="btn-group">
                 <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="fa fa-cog"></i>
@@ -77,15 +94,89 @@
         </div>
       
       </div>
-      <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+
+
+
+        <div class="d-flex flex-column"><!--First post-->
+            <div class="row justify-content-center mt-4">
+                <div class="toast fade show" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="toast-header">
+                        <strong class="mr-auto">My First Image</strong>
+                        <small>1/9</small>
+            </div>
+            <div>
+                <img class="irc_mi" src="https://en.es-static.us/upl/2013/09/sunrise-red-sea-Graham-Telford-e1489764712368.jpg" class="img-fluid" width="100%" height="400px" alt="Image result for sunset"/>
+                <div class="toast-body">
+                <p><b>85 Likes</b></p>
+                <p>Look at this beautfiul sunset</p>
+                <div class="Input-group">
+                    <div class="inout-group-prepend">
+                        <button class="btn btn-outline-danger" type="button">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    <div>
+                    <input type="text" class="form-control" placeholder="Comment..." aria-label="" aria-describedby="basic-addon1">
+                </div>
+            </div>
+         </div>
+     </div>
+ </div>
+
+ <div class="d-flex flex-column"><!--Second post-->
+    <div class="row justify-content-center mt-4">
+        <div class="toast fade show" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <strong class="mr-auto">My First Image</strong>
+                <small>2/14</small>
+    </div>
+    <div>
+        <img class="irc_mi" src="https://www.jonesday.com/-/media/files/publications/2019/05/when-coding-is-criminal/when-coding-is-criminal.jpg" class="img-fluid" width="100%" height="400px" alt="Image result for sunset"/>
+        <div class="toast-body">
+        <p><b>130 Likes</b></p>
+        <p>Look at this beautfiul sunset</p>
+        <div class="Input-group">
+            <div class="inout-group-prepend">
+                <button class="btn btn-outline-danger" type="button">
+                    <i class="far fa-heart"></i>
+                </button>
+            <div>
+            <input type="text" class="form-control" placeholder="Comment..." aria-label="" aria-describedby="basic-addon1">
+        </div>
+    </div>
+ </div>
+</div>
+</div>
+
+<div class="d-flex flex-column"><!--Third post-->
+    <div class="row justify-content-center mt-4">
+        <div class="toast fade show" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <strong class="mr-auto">My First Image</strong>
+                <small>3/29</small>
+    </div>
+    <div>
+        <img class="irc_mi" src="https://media0.giphy.com/media/DsE2FPfuoqScg/giphy.gif" width="450" height="253" alt="Image result for hugging gif">        <div class="toast-body">
+        <p><b>85 Likes</b></p>
+        <p>Look at this beautfiul sunset</p>
+        <div class="Input-group">
+            <div class="inout-group-prepend">
+                <button class="btn btn-outline-danger" type="button">
+                    <i class="far fa-heart"></i>
+                </button>
+            <div>
+            <input type="text" class="form-control" placeholder="Comment..." aria-label="" aria-describedby="basic-addon1">
+        </div>
+    </div>
+ </div>
+</div>
+</div>
+
+
         
 
 
-        <div class="d-flex flex-column">
-          <div class="row justify-content-center mt-4"
-        </div>
-      </div>
-    </div>
+        
     
      
       <!-- Optional JavaScript -->
